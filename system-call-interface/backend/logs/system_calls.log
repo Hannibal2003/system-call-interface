@@ -1,0 +1,130 @@
+2025-02-08 17:24:52,051 - INFO -  * Detected change in 'C:\\Users\\Jenet\\Desktop\\system-call-interface\\backend\\app.py', reloading
+2025-02-08 17:24:52,099 - INFO -  * Restarting with stat
+2025-02-08 17:24:52,803 - WARNING -  * Debugger is active!
+2025-02-08 17:24:52,803 - INFO -  * Debugger PIN: 123-854-973
+2025-02-08 17:24:59,858 - INFO -  * Restarting with stat
+2025-02-08 17:25:00,414 - WARNING -  * Debugger is active!
+2025-02-08 17:25:00,419 - INFO -  * Debugger PIN: 123-854-973
+2025-02-08 17:25:01,018 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-02-08 17:25:11,241 - INFO - 127.0.0.1 - - [08/Feb/2025 17:25:11] "GET / HTTP/1.1" 200 -
+2025-02-08 17:25:11,922 - INFO - 127.0.0.1 - - [08/Feb/2025 17:25:11] "GET / HTTP/1.1" 200 -
+2025-02-08 17:25:12,114 - INFO - 127.0.0.1 - - [08/Feb/2025 17:25:12] "GET / HTTP/1.1" 200 -
+2025-02-08 17:25:12,289 - INFO - 127.0.0.1 - - [08/Feb/2025 17:25:12] "GET / HTTP/1.1" 200 -
+2025-02-08 17:25:12,457 - INFO - 127.0.0.1 - - [08/Feb/2025 17:25:12] "GET / HTTP/1.1" 200 -
+2025-02-08 17:25:12,625 - INFO - 127.0.0.1 - - [08/Feb/2025 17:25:12] "GET / HTTP/1.1" 200 -
+2025-02-08 17:25:12,821 - INFO - 127.0.0.1 - - [08/Feb/2025 17:25:12] "GET / HTTP/1.1" 200 -
+2025-02-08 17:25:12,988 - INFO - 127.0.0.1 - - [08/Feb/2025 17:25:12] "GET / HTTP/1.1" 200 -
+2025-02-08 17:25:13,520 - INFO - 127.0.0.1 - - [08/Feb/2025 17:25:13] "GET / HTTP/1.1" 200 -
+2025-02-08 17:25:13,714 - INFO - 127.0.0.1 - - [08/Feb/2025 17:25:13] "GET / HTTP/1.1" 200 -
+2025-02-08 17:25:13,889 - INFO - 127.0.0.1 - - [08/Feb/2025 17:25:13] "GET / HTTP/1.1" 200 -
+2025-02-08 17:25:14,057 - INFO - 127.0.0.1 - - [08/Feb/2025 17:25:14] "GET / HTTP/1.1" 200 -
+2025-02-08 17:25:40,819 - INFO - 127.0.0.1 - - [08/Feb/2025 17:25:40] "GET / HTTP/1.1" 200 -
+2025-02-08 17:25:42,466 - INFO - 127.0.0.1 - - [08/Feb/2025 17:25:42] "GET / HTTP/1.1" 200 -
+2025-02-08 17:28:14,133 - INFO -  * Restarting with stat
+2025-02-08 17:28:14,667 - WARNING -  * Debugger is active!
+2025-02-08 17:28:14,667 - INFO -  * Debugger PIN: 123-854-973
+2025-02-08 17:28:15,311 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-02-08 17:30:04,338 - INFO - 127.0.0.1 - - [08/Feb/2025 17:30:04] "GET / HTTP/1.1" 200 -
+2025-02-08 17:32:49,220 - INFO -  * Detected change in 'C:\\Users\\Jenet\\Desktop\\system-call-interface\\backend\\app.py', reloading
+2025-02-08 17:32:49,309 - INFO -  * Restarting with stat
+2025-02-08 17:32:49,979 - WARNING -  * Debugger is active!
+2025-02-08 17:32:49,984 - INFO -  * Debugger PIN: 123-854-973
+2025-02-08 17:32:50,670 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-02-08 17:32:57,917 - INFO - 127.0.0.1 - - [08/Feb/2025 17:32:57] "GET / HTTP/1.1" 200 -
+2025-02-08 17:33:05,214 - ERROR - Error writing to C:/Users/Jenet/Desktop/test_write.txt: [Errno 13] Permission denied: 'C:/Users/Jenet/Desktop/test_write.txt'
+2025-02-08 17:33:05,214 - ERROR - Traceback (most recent call last):
+  File "C:\Users\Jenet\Desktop\system-call-interface\backend\app.py", line 33, in write_to_file
+    with open(file_path, 'w') as f:
+PermissionError: [Errno 13] Permission denied: 'C:/Users/Jenet/Desktop/test_write.txt'
+
+2025-02-08 17:33:05,214 - INFO - 127.0.0.1 - - [08/Feb/2025 17:33:05] "[35m[1mPOST /system-calls/write-file HTTP/1.1[0m" 500 -
+2025-02-08 17:33:27,647 - INFO - WRITE FILE SUCCESS: C:/Users/Jenet/Desktop/test
+2025-02-08 17:33:27,648 - INFO - 127.0.0.1 - - [08/Feb/2025 17:33:27] "POST /system-calls/write-file HTTP/1.1" 200 -
+2025-02-08 18:14:10,736 - INFO - WRITE FILE SUCCESS: C:/Users/Jenet/Desktop/test
+2025-02-08 18:14:10,736 - INFO - 127.0.0.1 - - [08/Feb/2025 18:14:10] "POST /system-calls/write-file HTTP/1.1" 200 -
+2025-02-08 18:14:15,748 - INFO - WRITE FILE SUCCESS: C:/Users/Jenet/Desktop/test
+2025-02-08 18:14:15,748 - INFO - 127.0.0.1 - - [08/Feb/2025 18:14:15] "POST /system-calls/write-file HTTP/1.1" 200 -
+2025-02-08 18:14:18,595 - INFO - 127.0.0.1 - - [08/Feb/2025 18:14:18] "GET / HTTP/1.1" 200 -
+2025-02-08 18:14:47,447 - INFO - WRITE FILE SUCCESS: C:/Users/Jenet/Desktop/test
+2025-02-08 18:14:47,447 - INFO - 127.0.0.1 - - [08/Feb/2025 18:14:47] "POST /system-calls/write-file HTTP/1.1" 200 -
+2025-02-08 18:19:43,048 - INFO -  * Detected change in 'C:\\Users\\Jenet\\Desktop\\system-call-interface\\backend\\app.py', reloading
+2025-02-08 18:19:43,095 - INFO -  * Restarting with stat
+2025-02-08 18:20:15,212 - INFO -  * Restarting with stat
+2025-02-08 18:20:15,813 - WARNING -  * Debugger is active!
+2025-02-08 18:20:15,813 - INFO -  * Debugger PIN: 123-854-973
+2025-02-08 18:20:16,450 - INFO -  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+2025-02-08 18:20:20,084 - INFO - 127.0.0.1 - - [08/Feb/2025 18:20:20] "GET / HTTP/1.1" 200 -
+2025-02-08 18:21:58,327 - INFO - LIST DIRECTORY SUCCESS: C:\Users\Jenet\Desktop\data-news2
+2025-02-08 18:21:58,327 - INFO - 127.0.0.1 - - [08/Feb/2025 18:21:58] "POST /system-calls/list-directory HTTP/1.1" 200 -
+2025-02-08 18:46:00,862 - INFO -  * Detected change in 'C:\\Users\\Jenet\\Desktop\\system-call-interface\\backend\\app.py', reloading
+2025-02-08 18:46:00,913 - INFO -  * Restarting with stat
+2025-02-08 18:46:01,804 - WARNING -  * Debugger is active!
+2025-02-08 18:46:01,809 - INFO -  * Debugger PIN: 123-854-973
+2025-02-08 18:46:02,471 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-02-08 18:46:02,473 - INFO -  * Running on http://192.168.91.215:5000/ (Press CTRL+C to quit)
+2025-02-08 18:53:18,871 - INFO - 127.0.0.1 - - [08/Feb/2025 18:53:18] "GET / HTTP/1.1" 200 -
+2025-02-08 18:53:26,008 - INFO - 127.0.0.1 - - [08/Feb/2025 18:53:26] "GET /system-calls/list-files HTTP/1.1" 200 -
+2025-02-08 18:53:30,741 - INFO - 127.0.0.1 - - [08/Feb/2025 18:53:30] "[31m[1mGET /system-calls/read-file?filename=test.txt HTTP/1.1[0m" 405 -
+2025-02-08 18:53:35,824 - INFO - 127.0.0.1 - - [08/Feb/2025 18:53:35] "[31m[1mGET /system-calls/write-file?filename=test.txt&content=Hello HTTP/1.1[0m" 405 -
+2025-02-08 18:53:36,973 - INFO - 127.0.0.1 - - [08/Feb/2025 18:53:36] "[31m[1mGET /system-calls/write-file?filename=test.txt&content=Hello HTTP/1.1[0m" 405 -
+2025-02-08 18:53:37,439 - INFO - 127.0.0.1 - - [08/Feb/2025 18:53:37] "[31m[1mGET /system-calls/write-file?filename=test.txt&content=Hello HTTP/1.1[0m" 405 -
+2025-02-08 18:53:37,578 - INFO - 127.0.0.1 - - [08/Feb/2025 18:53:37] "[31m[1mGET /system-calls/write-file?filename=test.txt&content=Hello HTTP/1.1[0m" 405 -
+2025-02-08 18:53:38,790 - INFO - 127.0.0.1 - - [08/Feb/2025 18:53:38] "[31m[1mGET /system-calls/delete-file?filename=test.txt HTTP/1.1[0m" 405 -
+2025-02-08 18:53:40,624 - INFO - 127.0.0.1 - - [08/Feb/2025 18:53:40] "GET /system-calls/list-files HTTP/1.1" 200 -
+2025-02-08 18:53:54,423 - INFO - 127.0.0.1 - - [08/Feb/2025 18:53:54] "[31m[1mGET /system-calls/write-file?filename=test.txt&content=Hello HTTP/1.1[0m" 405 -
+2025-02-08 18:53:55,294 - INFO - 127.0.0.1 - - [08/Feb/2025 18:53:55] "[31m[1mGET /system-calls/write-file?filename=test.txt&content=Hello HTTP/1.1[0m" 405 -
+2025-02-08 18:53:55,496 - INFO - 127.0.0.1 - - [08/Feb/2025 18:53:55] "[31m[1mGET /system-calls/write-file?filename=test.txt&content=Hello HTTP/1.1[0m" 405 -
+2025-02-08 18:53:55,663 - INFO - 127.0.0.1 - - [08/Feb/2025 18:53:55] "[31m[1mGET /system-calls/write-file?filename=test.txt&content=Hello HTTP/1.1[0m" 405 -
+2025-02-08 18:54:03,571 - INFO - 127.0.0.1 - - [08/Feb/2025 18:54:03] "GET /system-calls/list-files HTTP/1.1" 200 -
+2025-02-08 19:03:16,054 - INFO - 127.0.0.1 - - [08/Feb/2025 19:03:16] "GET / HTTP/1.1" 200 -
+2025-02-08 19:03:16,072 - INFO - 127.0.0.1 - - [08/Feb/2025 19:03:16] "GET /static/style.css HTTP/1.1" 200 -
+2025-02-08 19:03:16,088 - INFO - 127.0.0.1 - - [08/Feb/2025 19:03:16] "GET /static/script.js HTTP/1.1" 200 -
+2025-02-08 19:03:17,654 - INFO - 127.0.0.1 - - [08/Feb/2025 19:03:17] "GET /system-calls/list-files HTTP/1.1" 200 -
+2025-02-08 19:04:11,365 - INFO - 127.0.0.1 - - [08/Feb/2025 19:04:11] "POST /system-calls/write-file HTTP/1.1" 200 -
+2025-02-08 19:04:18,933 - INFO - 127.0.0.1 - - [08/Feb/2025 19:04:18] "GET /system-calls/list-files HTTP/1.1" 200 -
+2025-02-08 19:05:32,355 - INFO - 127.0.0.1 - - [08/Feb/2025 19:05:32] "POST /system-calls/delete-file HTTP/1.1" 200 -
+2025-02-08 19:05:49,940 - INFO - 127.0.0.1 - - [08/Feb/2025 19:05:49] "GET /system-calls/list-files HTTP/1.1" 200 -
+2025-02-08 19:08:09,730 - INFO -  * Detected change in 'C:\\Users\\Jenet\\Desktop\\system-call-interface\\backend\\app.py', reloading
+2025-02-08 19:08:09,774 - INFO -  * Restarting with stat
+2025-02-08 19:08:10,424 - WARNING -  * Debugger is active!
+2025-02-08 19:08:10,430 - INFO -  * Debugger PIN: 123-854-973
+2025-02-08 19:08:11,154 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-02-08 19:08:11,155 - INFO -  * Running on http://192.168.91.215:5000/ (Press CTRL+C to quit)
+2025-02-08 19:08:20,575 - INFO - 127.0.0.1 - - [08/Feb/2025 19:08:20] "GET / HTTP/1.1" 200 -
+2025-02-08 19:08:20,599 - INFO - 127.0.0.1 - - [08/Feb/2025 19:08:20] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-02-08 19:08:20,600 - INFO - 127.0.0.1 - - [08/Feb/2025 19:08:20] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-08 19:08:22,349 - INFO - 127.0.0.1 - - [08/Feb/2025 19:08:22] "[31m[1mGET /system-calls/list-files HTTP/1.1[0m" 405 -
+2025-02-08 19:10:59,907 - INFO - 127.0.0.1 - - [08/Feb/2025 19:10:59] "POST /system-calls/write-file HTTP/1.1" 200 -
+2025-02-08 19:11:02,494 - INFO - 127.0.0.1 - - [08/Feb/2025 19:11:02] "[31m[1mGET /system-calls/list-files HTTP/1.1[0m" 405 -
+2025-02-08 19:14:28,006 - INFO -  * Detected change in 'C:\\Users\\Jenet\\Desktop\\system-call-interface\\backend\\app.py', reloading
+2025-02-08 19:14:28,065 - INFO -  * Restarting with stat
+2025-02-08 19:14:28,662 - WARNING -  * Debugger is active!
+2025-02-08 19:14:28,668 - INFO -  * Debugger PIN: 123-854-973
+2025-02-08 19:14:29,301 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-02-08 19:14:29,302 - INFO -  * Running on http://192.168.91.215:5000/ (Press CTRL+C to quit)
+2025-02-08 19:15:01,797 - INFO - 127.0.0.1 - - [08/Feb/2025 19:15:01] "GET / HTTP/1.1" 200 -
+2025-02-08 19:15:01,818 - INFO - 127.0.0.1 - - [08/Feb/2025 19:15:01] "[36mGET /static/style.css HTTP/1.1[0m" 304 -
+2025-02-08 19:15:01,819 - INFO - 127.0.0.1 - - [08/Feb/2025 19:15:01] "[36mGET /static/script.js HTTP/1.1[0m" 304 -
+2025-02-08 19:15:04,103 - INFO - 127.0.0.1 - - [08/Feb/2025 19:15:04] "GET /system-calls/list-files HTTP/1.1" 200 -
+2025-02-08 19:15:07,936 - INFO - 127.0.0.1 - - [08/Feb/2025 19:15:07] "GET /system-calls/list-files HTTP/1.1" 200 -
+2025-02-08 19:15:08,440 - INFO - 127.0.0.1 - - [08/Feb/2025 19:15:08] "GET /system-calls/list-files HTTP/1.1" 200 -
+2025-02-08 19:15:08,621 - INFO - 127.0.0.1 - - [08/Feb/2025 19:15:08] "GET /system-calls/list-files HTTP/1.1" 200 -
+2025-02-08 20:25:38,148 - INFO -  * Detected change in 'C:\\Users\\Jenet\\Desktop\\system-call-interface\\backend\\app.py', reloading
+2025-02-08 20:25:38,196 - INFO -  * Restarting with stat
+2025-02-08 20:25:38,991 - WARNING -  * Debugger is active!
+2025-02-08 20:25:38,999 - INFO -  * Debugger PIN: 123-854-973
+2025-02-08 20:25:39,697 - WARNING -  * Running on all addresses.
+   WARNING: This is a development server. Do not use it in a production deployment.
+2025-02-08 20:25:39,698 - INFO -  * Running on http://192.168.91.215:5000/ (Press CTRL+C to quit)
+2025-02-08 20:25:51,462 - INFO - 127.0.0.1 - - [08/Feb/2025 20:25:51] "GET / HTTP/1.1" 200 -
+2025-02-08 20:25:51,483 - INFO - 127.0.0.1 - - [08/Feb/2025 20:25:51] "GET /static/style.css HTTP/1.1" 200 -
+2025-02-08 20:25:51,488 - INFO - 127.0.0.1 - - [08/Feb/2025 20:25:51] "GET /static/script.js HTTP/1.1" 200 -
+2025-02-08 20:25:56,738 - INFO - 127.0.0.1 - - [08/Feb/2025 20:25:56] "[31m[1mPOST /system-calls/read-file HTTP/1.1[0m" 400 -
+2025-02-08 20:25:58,638 - INFO - 127.0.0.1 - - [08/Feb/2025 20:25:58] "[31m[1mPOST /system-calls/write-file HTTP/1.1[0m" 400 -
+2025-02-08 20:26:03,754 - INFO - 127.0.0.1 - - [08/Feb/2025 20:26:03] "[31m[1mPOST /system-calls/delete-file HTTP/1.1[0m" 400 -
+2025-02-08 20:26:17,035 - INFO - 127.0.0.1 - - [08/Feb/2025 20:26:17] "[31m[1mPOST /system-calls/read-file HTTP/1.1[0m" 400 -
+2025-02-08 20:26:39,933 - INFO - 127.0.0.1 - - [08/Feb/2025 20:26:39] "[31m[1mPOST /system-calls/read-file HTTP/1.1[0m" 400 -
+2025-02-08 20:28:13,488 - INFO - 127.0.0.1 - - [08/Feb/2025 20:28:13] "POST /system-calls/write-file HTTP/1.1" 200 -
